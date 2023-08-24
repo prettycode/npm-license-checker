@@ -1,10 +1,12 @@
 packageJsons/**
-!packageJsons/example-project-package.json
+!packageJsons/example-project1-package.json
+!packageJsons/example-project2-package.json
+!packageJsons/example-project3-package.json
 
 node_modules
 .*
 !.gitignore
-!.eslintrc.js
+!.eslintrc.json
 !.editorconfig
-!.prettierrc.json
 !.eslintignore
+!.prettierrc

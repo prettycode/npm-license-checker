@@ -1,26 +1,24 @@
 {
-  "name": "npm-license-checker",
-  "version": "1.0.0-dev",
-  "description": "TODO",
-  "author": "Chris O'Brien",
-  "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "start": "ts-node licenseChecker.ts"
-  },
-  "dependencies": {
-    "axios": "^1.4.0",
-    "glob": "^10.3.3",
-    "lodash.groupby": "^4.6.0",
-    "semver": "^7.5.4",
-    "table": "^6.8.1"
-  },
-  "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/lodash.groupby": "^4.6.7",
-    "@types/node": "^20.4.8",
-    "@types/semver": "^7.5.0",
-    "@types/table": "^6.3.2",
-    "typescript": "^5.1.6"
-  }
+    "name": "npm-license-checker",
+    "version": "0.0.0",
+    "author": "Chris O'Brien",
+    "license": "MIT",
+    "main": "licenseChecker.ts",
+    "scripts": {
+        "start": "npx eslint . --fix && npx prettier . --write && npm update && ts-node licenseChecker.ts"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "semver": "^7.5.4"
+    },
+    "devDependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/node": "^20.4.8",
+        "@types/semver": "^7.5.0",
+        "@typescript-eslint/eslint-plugin": "^6.4.1",
+        "@typescript-eslint/parser": "^6.4.1",
+        "eslint": "^8.47.0",
+        "prettier": "^3.0.2",
+        "typescript": "^5.1.6"
+    }
 }
